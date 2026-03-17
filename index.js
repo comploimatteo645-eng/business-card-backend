@@ -27,7 +27,7 @@ app.post("/api/business-card/upload", upload.single("file"), (req, res) => {
     res.json({
       ok: true,
       job_id: jobId,
-      pdf_url: `${req.protocol}://${req.get("host")}/files/${jobId}`
+ pdf_url: `https://${req.get("host")}/files/${jobId}`
     });
   } catch (error) {
     console.error("Upload-Fehler:", error);
