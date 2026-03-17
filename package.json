@@ -1,0 +1,19 @@
+{
+  "name": "business-card-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "uuid": "^13.0.0"
+  }
+}
